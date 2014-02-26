@@ -17,8 +17,13 @@
 #              Monday, 03 January 2011 00:00 Jack Wallen
 #              https://www.linux.com/learn/tutorials/392935:remote-linux-desktops-with-nomachine-nx
 #
+# realvnc/     RealVNC - VNC provides remote control access of computers from any location
+#              for home and organization.  Over 100 million downloads.
+#              http://www.realvnc.com/
+#
 # vncserver/   Provides a vncserver to which X clients can connect and the
 #              server generates a display that can be viewed with a vncviewer.
 #
 ./nomachine    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/nomachine/nomachine
+./realvnc      svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/realvnc/realvnc
 ./vncserver    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vncserver/vncserver
