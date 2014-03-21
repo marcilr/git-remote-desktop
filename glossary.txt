@@ -1,0 +1,8 @@
+glossary.txt
+Created Fri Mar 21 13:39:11 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+VNC - 
+VPN - 
+
