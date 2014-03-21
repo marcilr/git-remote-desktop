@@ -1,0 +1,13 @@
+links.txt
+Created Fri Mar 21 13:35:45 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Remote Desktop related links
+
+
+Links
+=====
+7 of the best Linux remote desktop clients
+by Nick Veitch from Linux Format Issue 136  September 17th 2010 
+http://www.techradar.com/news/software/applications/7-of-the-best-linux-remote-desktop-clients-716346
