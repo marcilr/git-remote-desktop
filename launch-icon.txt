@@ -1,0 +1,13 @@
+launch-icon.txt
+Created Fri Mar 21 13:45:11 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+gnome-tweak-tool - tool to adjust advanced configuration settings for GNOME
+  Don't see launch info in gnome-tweak-tool.
+
+
+Links
+=====
+How to add shortcuts in Debian 7 ?
+http://forums.debian.net/viewtopic.php?f=30&t=83012
