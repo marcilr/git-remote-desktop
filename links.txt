@@ -11,3 +11,7 @@ Links
 7 of the best Linux remote desktop clients
 by Nick Veitch from Linux Format Issue 136  September 17th 2010 
 http://www.techradar.com/news/software/applications/7-of-the-best-linux-remote-desktop-clients-716346
+
+How Install And Use XVNC4Viewer On Linux
+https://databoyz.wordpress.com/2012/05/24/how-install-and-use-xvnc4viewer-on-linux-15/
+
