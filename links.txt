@@ -15,6 +15,6 @@ http://www.techradar.com/news/software/applications/7-of-the-best-linux-remote-d
 How Install And Use XVNC4Viewer On Linux
 https://databoyz.wordpress.com/2012/05/24/how-install-and-use-xvnc4viewer-on-linux-15/
 
-Virtual Network Computing
+Virtual Network Computing (VNC)
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Virtual_Network_Computing
