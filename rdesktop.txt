@@ -10,11 +10,29 @@ and is available for Linux and BSD as well as for Microsoft Windows.
 
 wikipedia.org/
 
+
+Packages
+========
 grdesktop - GNOME frontend for the rdesktop client
+rdesktop - RDP client for Windows NT/2000 Terminal Server and Windows Servers
+
+
+Options
+=======
+-k de: set keyboard layout
+-g 1500x1150: set resolution of the rdesktop window
+-r disk:mydisk=/home/soma: share your home directory with the remote machine
+
+rdesktop 192.168.1.23 -k de -g 1500x1150 -r disk:mydisk=/home/soma
+
+askubuntu.com/
 
 
 Links
 =====
+How to change the screen resolution when using RDesktop?
+http://askubuntu.com/questions/7138/how-to-change-the-screen-resolution-when-using-rdesktop
+
 rdesktop
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Rdesktop
