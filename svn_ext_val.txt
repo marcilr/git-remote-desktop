@@ -28,6 +28,14 @@
 # ultravnc/    UltraVNC - Recommended by GCIs Carlo Vitug, Mon Nov 18, 2013,
 #              for connection to Terra sites.
 #
+# vnc/         Virtual Network Computing (VNC) is a graphical desktop sharing
+#              system that uses the Remote Frame Buffer protocol (RFB) to
+#              remotely control another computer.  It transmits the keyboard
+#              and mouse events from one computer to another, relaying the
+#              graphical screen updates back in the other direction, over a
+#              network.
+#              http://en.wikipedia.org/wiki/Virtual_Network_Computing
+#
 # vncserver/   Provides a vncserver to which X clients can connect and the
 #              server generates a display that can be viewed with a vncviewer.
 #
@@ -35,4 +43,5 @@
 ./openvpn      svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/openvpn/openvpn
 ./realvnc      svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/realvnc/realvnc
 ./ultravnc     svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/ultravnc/ultravnc
+./vnc          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vnc/vnc
 ./vncserver    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vncserver/vncserver
