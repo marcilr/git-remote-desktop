@@ -1,0 +1,20 @@
+rdesktop.txt
+Created Wed Mar 26 13:22:42 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+rdesktop is an implementation of a client software for Microsoft's proprietary
+Remote Desktop Protocol (RDP).  Rdesktop is free and open-source software,
+subject to the requirements of the GNU General Public License (GPL), version 3
+and is available for Linux and BSD as well as for Microsoft Windows.
+
+wikipedia.org/
+
+grdesktop - GNOME frontend for the rdesktop client
+
+
+Links
+=====
+rdesktop
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Rdesktop
