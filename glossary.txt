@@ -3,6 +3,14 @@ Created Fri Mar 21 13:39:11 AKDT 2014
 Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+RDP - Remote Desktop Protocol (RDP) is a proprietary protocol developed by
+  Microsoft, which provides a user with a graphical interface to connect to
+  another computer over a network connection.  The user employs RDP client
+  software for this purpose, while the other computer must run RDP server
+  software.
+
+  wikiepedia.org/
+
 VNC - In computing, Virtual Network Computing (VNC) is a graphical desktop
   sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely
   control another computer.  It transmits the keyboard and mouse events from
@@ -22,6 +30,10 @@ Links
     http://en.wikipedia.org/wiki/Andy_Hopper
     http://www.cl.cam.ac.uk/Research/DTG/attarchive/pub/docs/att/tr.98.1.pdf
     http://dx.doi.org/10.1109%2F4236.656066
+
+Remote Desktop Protocol
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
 
 Virtual Network Computing
 From Wikipedia, the free encyclopedia
