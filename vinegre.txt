@@ -1,0 +1,25 @@
+vinegre.txt
+Created Thu Mar 27 12:25:40 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+vinagre - a remote desktop viewer for the GNOME Desktop
+
+
+Supports VNC, SSH, and RDP.
+
+conf file: ~/.gconf/apps/vinagre/%gconf.xml
+  ubuntuforums.org/
+
+
+Links
+=====
+Vinagre manual
+https://help.gnome.org/users/vinagre/2.91/using.html.en
+
+Vinagre manpage
+http://manpages.ubuntu.com/manpages/maverick/man1/vinagre.1.html
+
+Where's the config file of vinagre?
+http://ubuntuforums.org/showthread.php?t=809169
+
