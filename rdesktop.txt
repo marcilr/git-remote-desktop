@@ -98,6 +98,11 @@ http://www.nongnu.org/grdesktop/faq/
 How to change the screen resolution when using RDesktop?
 http://askubuntu.com/questions/7138/how-to-change-the-screen-resolution-when-using-rdesktop
 
+MIME
+The system-wide mapping from file suffixes to MIME types 
+is set in /etc/mime.types.
+https://wiki.debian.org/MIME
+
 rdesktop
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Rdesktop
