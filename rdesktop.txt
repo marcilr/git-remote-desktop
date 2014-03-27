@@ -28,8 +28,64 @@ rdesktop 192.168.1.23 -k de -g 1500x1150 -r disk:mydisk=/home/soma
 askubuntu.com/
 
 
+Launch file
+===========
+o Add application/x-rdp mime entry to 
+~/.local/share/applications/mimeapps.list file:
+
+application/x-rdp=grdesktop.desktop;
+
+archlinux.org/
+
+o Create ~/.local/share/applications/grdesktop.desktop file.
+Copied userapp-Icedove-HVUXBX.desktop to grdesktop.desktop and
+updated:
+
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=/usr/bin/grdesktop %u
+Name=grdesktop
+MimeType=application/x-rdp
+Comment=grdesktop - GNOME frontend for the rdesktop client
+
+
+o Verify rdp in /etc/mimetypes:
+
+covellite:/etc$ grep rdp mime.types
+...
+application/x-rdp   rdp
+$
+
+andrewtheart.blogspot.com/
+
+Looks good
+
+
+
 Links
 =====
+Default applications
+~/./share/applications/mimeapps.list
+https://wiki.archlinux.org/index.php/Default_applications
+
+Fixing rdp MIME type in Ubuntu Linux
+# echo "application/x-rdp rdp" >> /etc/mime.types
+This simply appends the rdp MIME info to the file.
+http://andrewtheart.blogspot.com/2008/07/fixing-rdp-mime-type-in-ubuntu-linux.html
+
+grdesktop
+http://www.nongnu.org/grdesktop/
+http://savannah.nongnu.org/projects/grdesktop
+
+grdesktop FAQ
+Author: Thorsten Sauter
+<tsauter@gmx.net> 2003-11-09
+Not much here
+http://www.nongnu.org/grdesktop/faq/
+
 How to change the screen resolution when using RDesktop?
 http://askubuntu.com/questions/7138/how-to-change-the-screen-resolution-when-using-rdesktop
 
