@@ -30,6 +30,15 @@ askubuntu.com/
 
 Launch file
 ===========
+o Update gnome-defaults-list
+
+$ cp /etc/gnome/defaults.list ~/.local/share/applications
+
+Add entry for rdp:
+application/x-rdp=grdesktop.desktop
+
+archlinux.org/
+
 o Add application/x-rdp mime entry to 
 ~/.local/share/applications/mimeapps.list file:
 
