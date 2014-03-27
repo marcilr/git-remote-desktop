@@ -11,6 +11,10 @@ Supports VNC, SSH, and RDP.
 conf file: ~/.gconf/apps/vinagre/%gconf.xml
   ubuntuforums.org/
 
+Does vnc with no issue to:
+  nms-deltacontrol-1.operations.gci.com
+  nms-deltacontrol-2.operations.gci.com
+
 
 Links
 =====
@@ -22,4 +26,3 @@ http://manpages.ubuntu.com/manpages/maverick/man1/vinagre.1.html
 
 Where's the config file of vinagre?
 http://ubuntuforums.org/showthread.php?t=809169
-
