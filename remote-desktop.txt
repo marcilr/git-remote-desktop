@@ -1,0 +1,25 @@
+remote-desktop.txt
+Created Thu Mar 27 11:10:57 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Remote desktop
+
+
+In computing, the term remote desktop refers to a software or operating system
+feature that allows a personal computer's desktop environment to be run
+remotely on one system (usually a PC, but the concept applies equally to a
+server), while being displayed on a separate client device.  Remote desktop
+applications have varying features.  Some allow attaching to an existing user's
+session (i.e., a running desktop) and "remote controlling", either displaying
+the remote control session or blanking the screen.  Taking over a desktop
+remotely is a form of remote administration.
+
+wikipedia.org/
+
+
+Links
+=====
+Remote desktop software
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Remote_desktop_software
