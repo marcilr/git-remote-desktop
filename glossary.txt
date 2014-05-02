@@ -18,8 +18,17 @@ VNC - In computing, Virtual Network Computing (VNC) is a graphical desktop
   other direction, over a network.[1]
   wikipedia.org/
 
-VPN - 
+VPN - A virtual private network (VPN) extends a private network across a public
+  network, such as the Internet.  It enables a computer to send and receive data
+  across shared or public networks as if it is directly connected to the private
+  network, while benefiting from the functionality, security and management
+  policies of the private network.[1]  A VPN is created by establishing a virtual
+  point-to-point connection through the use of dedicated connections, virtual
+  tunneling protocols, or traffic encryptions.
+  [1] Mason, Andrew G. Cisco Secure Virtual Private Network. Cisco Press, 2002,
+      p. 7
 
+  wikipedia.org/
 
 
 Links
@@ -39,3 +48,6 @@ Virtual Network Computing
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Virtual_Network_Computing
 
+Virtual private network
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Vpn#cite_note-1
