@@ -7,3 +7,5 @@ Packages
 ========
 grdesktop - GNOME frontend for the rdesktop client
 rdesktop - RDP client for Windows NT/2000 Terminal Server and Windows Servers
+remmina - remote desktop client for GNOME desktop environment
+vinagre - a remote desktop viewer for the GNOME Desktop
