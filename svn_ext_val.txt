@@ -25,8 +25,6 @@
 #              purpose, while the other computer must run RDP server software.
 #              http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
 #
-# rdesktop/    Remote Desktop Protocol client
-#
 # vnc/         Virtual Network Computing (VNC) is a graphical desktop sharing
 #              system that uses the Remote Frame Buffer protocol (RFB) to
 #              remotely control another computer.  It transmits the keyboard
@@ -43,7 +41,6 @@
 #              http://en.wikipedia.org/wiki/Virtual_private_network
 #
 ./nomachine    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/nomachine/nomachine
-./rdesktop     svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdesktop/rdesktop
 ./rdp          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdp/rdp
 ./vnc          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vnc/vnc
 ./vpn          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vpn/vpn
