@@ -3,6 +3,9 @@ Created Fri Mar 21 13:39:11 AKDT 2014
 Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+Glossary for Remove Desktop
+
+
 RDP - Remote Desktop Protocol (RDP) is a proprietary protocol developed by
   Microsoft, which provides a user with a graphical interface to connect to
   another computer over a network connection.  The user employs RDP client
