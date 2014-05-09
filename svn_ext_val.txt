@@ -30,7 +30,15 @@
 #              network.
 #              http://en.wikipedia.org/wiki/Virtual_Network_Computing
 #
+# vpn/         Virtual Private Network
+#              A virtual private network (VPN) is a network that uses
+#              primarily public telecommunication infrastructure, such as the
+#              Internet, to provide remote offices or traveling users an
+#              access to a central organizational network.
+#              http://en.wikipedia.org/wiki/Virtual_private_network
+#
 ./nomachine    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/nomachine/nomachine
 ./openvpn      svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/openvpn/openvpn
 ./rdesktop     svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdesktop/rdesktop
 ./vnc          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vnc/vnc
+./vpn          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vpn/vpn
