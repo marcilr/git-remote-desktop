@@ -1,0 +1,33 @@
+remmina.txt
+Created Sun Oct 27 13:22:40 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+remmina - remote desktop client for GNOME desktop environment
+
+Remmina is a remote desktop client written in GTK+, aiming to be useful for
+system administrators and travellers, who need to wo in an integrated and
+consistent user interface.  Currently RDP, VNC, NX, XDMCP and SSH are
+suppoports multiple network protocols in an integrated and consistent user
+interface. Currently RDP, VNC, NX, XDMCP and SSH are supported.
+
+Remmina is released in separated source packages:
+o "remmina", the main GTK+ application
+o "remmina-plugins", a set of plugins
+
+Remmina is free and open-source software, released under GNU GPL license.
+
+remmina.sourceforge.net/
+
+
+Sun Oct 27 13:22:40 AKDT 2013
+=============================
+Installed remmina remote desktop client.
+
+# aptitude install remmina
+
+
+Links
+=====
+Remmina
+http://remmina.sourceforge.net/
