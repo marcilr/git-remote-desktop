@@ -20,6 +20,13 @@
 #
 # openvpn/     Virtual private network daemon
 #
+# rdp/         Remote Desktop Protocol (RDP) is a proprietary protocol
+#              developed by Microsoft, which provides a user with a graphical
+#              interface to connect to another computer over a network
+#              connection.  The user employs RDP client software for this
+#              purpose, while the other computer must run RDP server software.
+#              http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
+#
 # rdesktop/    Remote Desktop Protocol client
 #
 # vnc/         Virtual Network Computing (VNC) is a graphical desktop sharing
@@ -40,5 +47,6 @@
 ./nomachine    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/nomachine/nomachine
 ./openvpn      svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/openvpn/openvpn
 ./rdesktop     svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdesktop/rdesktop
+./rdp          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdp/rdp
 ./vnc          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vnc/vnc
 ./vpn          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vpn/vpn
