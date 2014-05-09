@@ -1,0 +1,91 @@
+README
+Created Fri May  9 14:53:23 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Remote Desktop
+
+
+In computing, the term remote desktop refers to a software or operating system
+feature that allows a personal computer's desktop environment to be run
+remotely on one system (usually a PC, but the concept applies equally to a
+server), while being displayed on a separate client device.  Remote desktop
+applications have varying features.  Some allow attaching to an existing user's
+session (i.e., a running desktop) and "remote controlling", either displaying
+the remote control session or blanking the screen.  Taking over a desktop
+remotely is a form of remote administration.
+
+wikipedia.org/
+
+
+Filelist
+========
+glossary.txt
+  Glossary for Remove Desktop
+
+links.txt
+  Remote Desktop related links
+
+nomachine/
+  "NoMachine NX is an incredible tool for enabling remote desktop access. In
+  fact, you will be hard-pressed to find a better tool for the task.  Although
+  the free version is limited to its number of connections allowed, it is
+  still a very useful tool that can be a stepping stone to the paid version
+  should your business find a need."
+  
+  Remote Linux Desktops with NoMachine NX
+  Monday, 03 January 2011 00:00 Jack Wallen
+  https://www.linux.com/learn/tutorials/392935:remote-linux-desktops-with-nomachine-nx
+
+packages.txt
+  Packages for Remote Desktop
+
+rdp/
+  Remote Desktop Protocol (RDP) is a proprietary protocol developed by
+  Microsoft, which provides a user with a graphical interface to connect to
+  another computer over a network connection.  The user employs RDP client
+  software for this purpose, while the other computer must run RDP server
+  software.
+  http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
+
+remmina.txt
+  remmina - remote desktop client for GNOME desktop environment
+  Currently RDP, VNC, NX, XDMCP and SSH are supported.  
+
+remote-desktop.txt
+  In computing, the term remote desktop refers to a software or operating
+  system feature that allows a personal computer's desktop environment to be
+  run remotely on one system (usually a PC, but the concept applies equally to
+  a server), while being displayed on a separate client device.  Remote desktop
+  applications have varying features.  Some allow attaching to an existing
+  user's session (i.e., a running desktop) and "remote controlling", either
+  displaying the remote control session or blanking the screen.  Taking over a
+  desktop remotely is a form of remote administration.
+  http://en.wikipedia.org/wiki/Remote_desktop_software
+
+svn_ext_val.txt
+  List of repo hierarchical directories to checkout under remote-desktop/
+
+vinegre.txt
+  vinagre - a remote desktop viewer for the GNOME Desktop  
+
+vnc/
+  Virtual Network Computing (VNC) is a graphical desktop sharing system that
+  uses the Remote Frame Buffer protocol (RFB) to remotely control another
+  computer.  It transmits the keyboard and mouse events from one computer to
+  another, relaying the graphical screen updates back in the other direction,
+  over a network.
+  http://en.wikipedia.org/wiki/Virtual_Network_Computing
+
+vpn/
+  A virtual private network (VPN) is a network that uses primarily public
+  telecommunication infrastructure, such as the Internet, to provide remote
+  offices or traveling users an access to a central organizational network.
+  http://en.wikipedia.org/wiki/Virtual_private_network
+
+
+Links
+=====
+Remote desktop software
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Remote_desktop_software
