@@ -18,8 +18,6 @@
 #              Monday, 03 January 2011 00:00 Jack Wallen
 #              https://www.linux.com/learn/tutorials/392935:remote-linux-desktops-with-nomachine-nx
 #
-# openvpn/     Virtual private network daemon
-#
 # rdp/         Remote Desktop Protocol (RDP) is a proprietary protocol
 #              developed by Microsoft, which provides a user with a graphical
 #              interface to connect to another computer over a network
@@ -45,7 +43,6 @@
 #              http://en.wikipedia.org/wiki/Virtual_private_network
 #
 ./nomachine    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/nomachine/nomachine
-./openvpn      svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/openvpn/openvpn
 ./rdesktop     svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdesktop/rdesktop
 ./rdp          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdp/rdp
 ./vnc          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vnc/vnc
