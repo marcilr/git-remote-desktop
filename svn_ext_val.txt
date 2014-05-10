@@ -40,7 +40,7 @@
 #              access to a central organizational network.
 #              http://en.wikipedia.org/wiki/Virtual_private_network
 #
-./nomachine    svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/nomachine/nomachine
-./rdp          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/rdp/rdp
-./vnc          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vnc/vnc
-./vpn          svn+ssh://home/data/svnroot/compsci/apps/remote-desktop/vpn/vpn
+./nomachine    svn+ssh://home/data/svnroot/compsci/remote-desktop/nomachine/nomachine
+./rdp          svn+ssh://home/data/svnroot/compsci/remote-desktop/rdp/rdp
+./vnc          svn+ssh://home/data/svnroot/compsci/remote-desktop/vnc/vnc
+./vpn          svn+ssh://home/data/svnroot/compsci/remote-desktop/vpn/vpn
