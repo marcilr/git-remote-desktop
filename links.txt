@@ -19,6 +19,10 @@ http://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
 How Install And Use XVNC4Viewer On Linux
 https://databoyz.wordpress.com/2012/05/24/how-install-and-use-xvnc4viewer-on-linux-15/
 
+Linux Remote Desktop Access with VNC
+Fine details and overview of linux remote desktop.
+http://www.stuartellis.eu/articles/vnc-on-linux/
+
 Remote desktop software
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Remote_desktop_software
