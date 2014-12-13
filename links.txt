@@ -30,3 +30,6 @@ http://en.wikipedia.org/wiki/Remote_desktop_software
 Virtual Network Computing (VNC)
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Virtual_Network_Computing
+
+Why won't Remmina connect to Windows 7 Remote Desktop?
+http://askubuntu.com/questions/154121/why-wont-remmina-connect-to-windows-7-remote-desktop
