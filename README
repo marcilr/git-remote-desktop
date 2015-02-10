@@ -18,6 +18,18 @@ remotely is a form of remote administration.
 wikipedia.org/
 
 
+From my experience there are three means of remove desktop.  These are rdp,
+vnc, and rdp.  The first rdp is generally associated windows and port 3389.
+That said I remember using rdesktop to get to linux boxes working at Spectrum
+Wireless with Jame Crippen in 2000.
+
+VNC works well and is what I use for linux access from home to work and 
+vice-versa from GCI Network Services, OSS Developer III position that I
+started October 7, 2013.  That said VNC is a bit clunky.
+
+VPN is what works best for windows-to-windows connections.
+
+
 Filelist
 ========
 glossary.txt
