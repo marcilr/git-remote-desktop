@@ -1,0 +1,33 @@
+README
+Created Sat Apr 15 21:03:53 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+00ARCHIVES/
+  Archives 
+
+00INSTALL/
+  NoMachine installation
+
+doc/
+  Documentation
+
+pdf/
+  Portable Document Format files
+
+pics/
+  Pictures
+
+syntax/
+  Syntax for nomahine
+
+links.txt
+  nomachine related links
+
+nomachine.txt
+  NoMachine
+  The Network Computing Company
+  http://nomachine.com/
+
