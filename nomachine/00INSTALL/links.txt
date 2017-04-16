@@ -1,0 +1,12 @@
+links.txt
+Created Fri Dec 12 12:36:28 AKST 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Install related links
+
+
+Links
+=====
+Default ports used by NoMachine 4
+https://www.nomachine.com/AR01L00770
