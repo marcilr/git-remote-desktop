@@ -1,0 +1,12 @@
+links.txt
+Created Fri Dec 12 14:48:08 AKST 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Syntax related links
+
+
+Links
+=====
+Creating new virtual desktop sessions
+https://www.nomachine.com/creating-new-virtual-desktop-sessions
