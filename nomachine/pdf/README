@@ -1,0 +1,65 @@
+README
+Created Mon Mar 26 13:59:34 AKDT 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+admin-guide.pdf
+  NX Server Administrator's Guide
+  This document provides NX Server users with the default configuration and command key details.
+  http://www.nomachine.com/documentation/admin-guide.php
+  http://www.nomachine.com/documentation/html/admin-guide.html 
+  http://www.nomachine.com/documentation/pdf/admin-guide.pdf
+
+nx-builder-install.pdf
+  NX Builder Installation Instructions
+  http://www.nomachine.com/documents/builder/install.php
+  http://www.nomachine.com/documents/builder/install.pdf
+  http://www.nomachine.com/documents/builder/install.html
+
+nx-client-install.pdf
+  NX Client Installation Instructions 
+  http://www.nomachine.com/documents/client/install.php
+  http://www.nomachine.com/img/shared/ico_html.gif
+  http://www.nomachine.com/documents/client/install.pdf
+
+nx-node-install.pdf
+  NX Node Installation Instructions
+  http://www.nomachine.com/documents/node/install.php
+  http://www.nomachine.com/documents/node/install.pdf
+  http://www.nomachine.com/documents/node/install.html
+
+nx-server-install.pdf
+  NX Server Installation Instructions
+  http://www.nomachine.com/documents/server/install.php
+  http://www.nomachine.com/documents/server/install.pdf
+  http://www.nomachine.com/documents/server/install.html
+
+nx-server-manager-install.pdf
+  NX Server Manager Installation and Configuration Guide
+  http://www.nomachine.com/documents/manager/install.php
+  http://www.nomachine.com/documents/manager/install.pdf
+  http://www.nomachine.com/documents/manager/install.html
+
+nx-web-companion-install.pdf
+  NX Web Companion Installation and Configuration Guide
+  http://www.nomachine.com/documents/plugin/install.php
+  http://www.nomachine.com/documents/plugin/install.pdf
+  http://www.nomachine.com/documents/plugin/install.html  
+
+secure-graphical-remote-administration.pdf
+  Secure Graphical Remote Administration
+  This guide will help you set up an NX server on a Linux host that will allow
+  a Windows or Linux client to connect remotely via SSH with a graphical
+  interface.
+  OssDevelopmentWiki: Topics/Systems/Secure Graphical Remote Administration 
+    (last edited 2008-01-18 13:41:10 by mgrimm)
+  From GCI Internal OSS Development Wiki
+  http://development.operations.gci.com/wiki/Topics/Systems/Secure_Graphical_Remote_Administration
+
+Links
+=====
+NoMachine installation docs
+http://www.nomachine.com/installation.php
+
