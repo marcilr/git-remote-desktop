@@ -1,0 +1,62 @@
+nx-a-fast-remote-linux-desktop.txt
+Created Thu Oct 15 20:31:36 AKDT 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+NX - A Fast Remote Linux Desktop
+Posted 30th August 2011 by Gavin Burris
+
+
+Many Linux users are familiar with X11 forwarding via SSH, or VNC for remote desktop sharing.
+SSH can tunnel X Windows from your remote host to the local X server display.  And VNC can
+remotely share the desktop seen on the monitor or start a completely new desktop in the
+background.  Similarly, NoMachine (NX) can do the same things, with the bonus of a faster
+compression algorithm for a more responsive GUI.
+
+I had avoided NX because it seemed confusing and difficult to install.  Now, NX has a free client,
+node and server download, all of which is easy to install and use.  These steps work on the latest
+CentOS 5 and Fedora 15.
+
+Download the latest NX Free Edition client, node and server RPMs from
+www.nomachine.com/download.php and install them on your server:
+
+# rpm -ihv nxclient-3.5.0-7.x86_64.rpm nxnode-3.5.0-6.x86_64.rpm nxserver-3.5.0-8.x86_64.rpm
+
+On your client system, just install the client RPM:
+
+# rpm -ihv nxclient-3.5.0-7.x86_64.rpm
+
+Now you may log into your server by providing your username and password.
+
+NX provides a much more responsive remote desktop, especially over low speed and high latency
+connections.  There are also many options for choosing Gnome vs KDE, or even just a single program
+for your session.  Give it a try.
+
+There is also an option for sharing your desktop with multiple other users, called shadowing in NX
+terminology.  The primary user logs in and starts a new Unix session.  Then another user logs in
+with a Shadow session, selecting the session of the primary user.  This is great for remote
+collaboration with trusted colleagues that have an account on the same server.
+
+Make sure to check out Getting Started with NX[1]. Also, detailed instructions and troubleshooting
+for installing the repository version of NX can be found at CentOS Wiki HowTos/FreeNX[2].
+
+UPDATE: I have found that the free NX server download from nomachine.com is more functional than
+the one provided in the repositories.  In particular, shadowing was broken in the repo version.
+Shadowing is the desktop session sharing feature of NX.  So, I do not recommend using yum to
+install NX.  NX Free Edition seems to be limited to two users, though. 
+
+Posted 30th August 2011 by Gavin Burris
+
+
+Links
+=====
+[1] Getting Started with NX
+http://www.nomachine.com/documents/getting-started.php
+
+[2] CentOS Wiki HowTos/FreeNX
+http://wiki.centos.org/HowTos/FreeNX
+
+NX - A Fast Remote Linux Desktop
+Posted 30th August 2011 by Gavin Burris
+http://idolinux.blogspot.com/
+http://idolinux.blogspot.com/2011/08/nx-fast-remote-linux-desktop.html
