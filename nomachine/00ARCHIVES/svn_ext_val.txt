@@ -1,0 +1,22 @@
+#
+# svn_ext_val.txt
+# Created Mon Mar 26 13:13:57 AKDT 2012
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+
+
+#
+# List of subversion repositories to checkout under nomachine/
+#
+# 00INSTALL/   Installation of nomachine
+# docs/        Documentation
+# pdf/         Portable Document Format files
+# pics/        NoMachine related pictures
+# syntax/      Syntax
+#
+../../nomachine/00INSTALL/00INSTALL   ./00INSTALL
+../../nomachine/docs/docs             ./docs
+../../nomachine/pdf/pdf               ./pdf
+../../nomachine/pics/pics             ./pics
+../../nomachine/syntax/syntax         ./syntax
+
