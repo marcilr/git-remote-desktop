@@ -20,6 +20,14 @@ to TCP communication.
 nomachine.com/AR01L00770
 
 
+Tue Feb 23 05:30:52 AKST 2016
+=============================
+bornite      ports: 8000-9999
+htpc         ports  6000-7999
+malachite    ports: 4000-5999
+
+
+
 Links
 =====
 Default ports used by NoMachine 4
