@@ -1,0 +1,95 @@
+links.txt
+Created Mon Mar 26 13:10:27 AKDT 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+NoMachine NX related links.
+
+
+Links
+=====
+Detailed instructions on how to install the NX Client, NX Node and NX Server
+Has online, pdf, and html.
+http://www.nomachine.com/installation.php
+
+Download NX Free Edition for Linux - amd64
+For Xandros Desktop 4.1/Xandros Server 2.0,
+Debian GNU Linux 4.0 Etch/5.0 Lenny/6.0 Squeeze,
+Ubuntu 5.10 Breezy Badger/6.06 Dapper Drake/6.10/Edgy Eft/\
+7.04 Feisty Fawn/7.10 Gutsy Gibbon/8.04 Hardy Heron/8.10 \
+Intrepid Ibex/9.04 Jaunty Jackalope/9.10 Karmic Koala/\
+10.4 Lucid Lynx/10.10 Maverick Meerkat/11.04 Natty Narwhal/\
+11.10 Oneiric Ocelot
+http://www.nomachine.com/download-package.php?Prod_Id=3592
+
+For more detailed information about prerequisites, supported platforms and the  
+package installation, please refer to the documentation available on the 
+NoMachine Web site at:
+http://www.nomachine.com/documents/client/install.php
+http://www.nomachine.com/documents/node/install.php
+http://www.nomachine.com/documents/server/install.php
+
+I work for a big company, being involved also in OSS development.
+May I have a free license?
+https://www.nomachine.com/AR04C00183&an=license
+
+NoMachine
+From Wikipedia, the free encyclopedia
+https://en.wikipedia.org/wiki/NoMachine
+
+NoMachine
+The Network Computing Company
+http://nomachine.com/
+
+NoMachine documentation
+http://www.nomachine.com/documents.php
+
+NoMachine downloads
+https://www.nomachine.com/download
+
+NoMachine downloads
+http://www.nomachine.com/download.php
+
+NoMachine installation docs
+http://www.nomachine.com/installation.php
+
+NoMachine NX is a fast terminal server and desktop virtualization system based
+on the X11 protocol.  NX is an order of magnitude faster than VNC or X11 and 
+can run on bandwidth as narrow as 10 kBit/sec.  In addition, NX translates and
+embeds the MS Windows Terminal Server and VNC protocols into X/NX, enabling 
+users to compress and accelerate remote Windows and VNC sessions.  The NX 
+project provides a suite of libraries and X11 proxying agents implementing 
+efficient compression and optimized transport of X11, SMB, IPP, HTTP, and
+arbitrary protocols like audio and video over the Internet.
+http://www.nomachine.com/index.php
+http://freshmeat.net/projects/nx
+
+NoMachine products
+With NX Server and other NoMachine products, companies and professionals can 
+take further advantage of the Internet.  Not only is information simple to use  
+and always available, but even applications and computing resources.  What's 
+more, customers are guaranteed expert technical support with any of the 
+multiple service level options available via NoMachine's Subscription Options.
+NX Free Edition - Free forever
+NX Enterprise Desktop (10x Desktop Server licenses) - $794.50
+NX Small Business License (10x concurrent sessions) - $744.50
+NX Enterprise Server - $1,494.50
+NX Advanced Server - $3,494.50
+NX Server Manager - Free forever
+NX Web Companion - Free forever
+NX Client - Free forever
+NX Builder - Free forever
+http://www.nomachine.com/products.php
+
+NoMachine support
+http://www.nomachine.com/support.php
+
+NX Free Edition for Linux
+http://www.nomachine.com/select-package.php?os=linux&id=1
+
+NX Server Administrator's Guide
+http://www.nomachine.com/documentation/admin-guide.php
+
+Remote Linux Desktops with NoMachine NX
+Monday, 03 January 2011 00:00 Jack Wallen           
+https://www.linux.com/learn/tutorials/392935:remote-linux-desktops-with-nomachine-nx
