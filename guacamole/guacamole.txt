@@ -1,0 +1,20 @@
+guacamole.txt
+Created Tue Aug 12 09:12:02 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Guacamole - HTML 5 Clientless Remote Desktop
+
+
+Jason Guild gmailed the Guacamole link August 11, 2014.
+Looks pretty good.  Would likely beat VNC in spades.
+
+
+
+Links
+=====
+Guacamole - HTML 5 Clientless Remote Desktop
+http://guac-dev.org/
+
+Hacker News
+https://news.ycombinator.com/item?id=8166388#
