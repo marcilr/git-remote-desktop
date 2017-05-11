@@ -1,0 +1,22 @@
+links.txt
+Created Tue Aug 12 09:14:48 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Guacamole related links
+
+
+Links
+=====
+Guacamole - HTML 5 Clientless Remote Desktop
+http://guac-dev.org/
+
+Guacamole - Installation Instructions
+http://guac-dev.org/doc/gug/installing-guacamole.html
+
+Guacamole - Manual
+http://guac-dev.org/doc/gug/
+
+Hacker News
+https://news.ycombinator.com/item?id=8166388
+
