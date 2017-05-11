@@ -12,6 +12,16 @@ Links
 by Nick Veitch from Linux Format Issue 136  September 17th 2010 
 http://www.techradar.com/news/software/applications/7-of-the-best-linux-remote-desktop-clients-716346
 
+Best Linux remote desktop clients: Top 5 RDC in 2017
+By Mayank Sharma January 18, 2017 Software
+Has:
+  RealVNC
+  Remmina
+  TigerVNC
+  TightVNC
+  Vinagre
+http://www.techradar.com/news/5-of-the-best-linux-remote-desktop-clients
+
 Comparison of remote desktop software
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
