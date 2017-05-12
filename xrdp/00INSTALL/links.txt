@@ -1,0 +1,25 @@
+links.txt
+Created Wed Feb 11 14:24:57 AKST 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of rdp related links
+
+
+Links
+=====
+RDP into your Linux Desktop                          <=======
+Use of xrdp - Remote Desktop Protocol (RDP) server
+# yum install xrdp -y
+# chkconfig --levels 35 xrdp on
+# service xrdp start
+This might be better than VNC.  Possible to port over ssh ???
+http://www.linux.org/threads/rdp-into-your-linux-desktop.8/
+
+Remote Desktop Protocol
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
+
+Remote Desktop Ubuntu
+Ubuntu Linux Guide
+http://www.ubuntulinuxguide.com/ubuntu-1204-lts/remote-desktop-12-04-lts/
