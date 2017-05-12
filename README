@@ -35,6 +35,9 @@ Filelist
 glossary.txt
   Glossary for Remove Desktop
 
+grdesktop/
+  GNOME frontend for the rdesktop client
+
 guacamole.txt
   Guacamole - HTML 5 Clientless Remote Desktop
   Jason Guild gmailed the Guacamole link August 11, 2014.
@@ -60,13 +63,8 @@ nomachine/
 packages.txt
   Packages for Remote Desktop
 
-rdp/
-  Remote Desktop Protocol (RDP) is a proprietary protocol developed by
-  Microsoft, which provides a user with a graphical interface to connect to
-  another computer over a network connection.  The user employs RDP client
-  software for this purpose, while the other computer must run RDP server
-  software.
-  http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
+rdesktop/
+  Remote Desktop Protocol client
 
 remmina.txt
   remmina - remote desktop client for GNOME desktop environment
@@ -82,9 +80,6 @@ remote-desktop.txt
   displaying the remote control session or blanking the screen.  Taking over a
   desktop remotely is a form of remote administration.
   http://en.wikipedia.org/wiki/Remote_desktop_software
-
-svn_ext_val.txt
-  List of repo hierarchical directories to checkout under remote-desktop/
 
 vinegre.txt
   vinagre - a remote desktop viewer for the GNOME Desktop  
