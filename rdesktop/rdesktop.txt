@@ -1,0 +1,76 @@
+rdesktop.txt
+Created Wed Mar 26 13:22:42 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+rdesktop - Remote Desktop Protocol client
+
+
+rdesktop is a free, open source client for Microsoft's proprietary RDP
+protocol released under the GNU General Public License.  Use rdesktop to
+connect to Windows 2000/XP/Vista/Win7 RDP server to remotely administrate the
+Windows box.
+
+wiki.archlinux.org/
+
+
+rdesktop is an implementation of a client software for Microsoft's proprietary
+Remote Desktop Protocol (RDP).  Rdesktop is free and open-source software,
+subject to the requirements of the GNU General Public License (GPL), version 3
+and is available for Linux and BSD as well as for Microsoft Windows.
+
+wikipedia.org/
+
+
+Syntax
+======
+rdesktop [options] server[:port]
+
+rdesktop -u <userid> -p <password> -g 1024x768 <ip_address>
+
+rdesktop -u marcilr -g 1080x768 127.0.0.1
+
+
+Packages
+========
+grdesktop - GNOME frontend for the rdesktop client
+rdesktop - RDP client for Windows NT/2000 Terminal Server and Windows Servers
+
+
+Options
+=======
+-k de: set keyboard layout
+-g 1500x1150: set resolution of the rdesktop window
+-r disk:mydisk=/home/soma: share your home directory with the remote machine
+
+rdesktop 192.168.1.23 -k de -g 1500x1150 -r disk:mydisk=/home/soma
+
+askubuntu.com/
+
+
+
+Links
+=====
+grdesktop
+http://www.nongnu.org/grdesktop/
+http://savannah.nongnu.org/projects/grdesktop
+
+grdesktop FAQ
+Author: Thorsten Sauter
+<tsauter@gmx.net> 2003-11-09
+Not much here
+http://www.nongnu.org/grdesktop/faq/
+
+How to change the screen resolution when using RDesktop?
+http://askubuntu.com/questions/7138/how-to-change-the-screen-resolution-when-using-rdesktop
+
+Rdesktop
+rdesktop is a free, open source client for Microsoft's proprietary RDP
+protocol released under the GNU General Public License.  Use rdesktop to
+connect to Windows 2000/XP/Vista/Win7 RDP server to remotely administrate
+the Windows box.
+https://wiki.archlinux.org/index.php/rdesktop
+
+rdesktop
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Rdesktop
