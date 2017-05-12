@@ -1,0 +1,15 @@
+links.txt
+Created Fri Feb 13 08:21:13 AKST 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+grdesktop related links
+
+
+Links
+=====
+grdesktop - Homepage
+grdesktop is a GNOME frontend, for the remote desktop client (rdesktop).
+It can save several connections (including their options), and browse
+the network for available terminal servers.
+http://www.nongnu.org/grdesktop/
