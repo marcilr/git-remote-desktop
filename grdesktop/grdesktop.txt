@@ -10,3 +10,13 @@ grdesktop is a GNOME frontend for the remote desktop client (rdesktop).
 
 It  can  save several connections (including their options), and browse
 the network for available terminal servers.
+
+
+Links
+=====
+grdesktop - Homepage
+grdesktop is a GNOME frontend, for the remote desktop client (rdesktop).
+It can save several connections (including their options), and browse
+the network for available terminal servers.
+http://www.nongnu.org/grdesktop/
+
