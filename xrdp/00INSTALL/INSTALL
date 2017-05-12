@@ -1,0 +1,86 @@
+INSTALL
+Created Wed Feb 11 14:24:09 AKST 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of rdp on debian
+
+
+Packages
+========
+xrdp - Remote Desktop Protocol (RDP) server
+
+
+Installation
+============
+Installed on covellite Deb 11, 2015
+
+
+1. Install xrdp with aptitude:
+covellite:~# aptitude install xrdp
+The following NEW packages will be installed:
+  xrdp 
+0 packages upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 271 kB of archives. After unpacking 1,570 kB will be used.
+Get: 1 http://ftp.us.debian.org/debian/ wheezy/main xrdp amd64 0.5.0-2 [271 kB]
+Fetched 271 kB in 0s (315 kB/s)
+Selecting previously unselected package xrdp.
+(Reading database ... 212747 files and directories currently installed.)
+Unpacking xrdp (from .../xrdp_0.5.0-2_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up xrdp (0.5.0-2) ...
+[....] Generating xrdp RSA keys......
+Generating 512 bit rsa key...
+
+ssl_gen_key_xrdp1 ok
+
+saving to /etc/xrdp/rsakeys.ini
+
+done (done).
+[ ok ] Starting Remote Desktop Protocol server : xrdp sesman.
+
+covellite:~#                               
+
+
+2. Check start/stop script installation:
+covellite:/etc# find . | grep xrdp
+./default/xrdp
+./rc3.d/S01xrdp
+./rc0.d/K01xrdp
+./rc2.d/S01xrdp
+./xrdp
+./xrdp/km-0407.ini
+./xrdp/km-041d.ini
+./xrdp/km-0419.ini
+./xrdp/startwm.sh
+./xrdp/km-040c.ini
+./xrdp/sesman.ini
+./xrdp/xrdp.ini
+./xrdp/rsakeys.ini
+./xrdp/km-0410.ini
+./xrdp/km-0409.ini
+./rc4.d/S01xrdp
+./rc5.d/S01xrdp
+./rc6.d/K01xrdp
+./pam.d/xrdp-sesman
+./rc1.d/K01xrdp
+./init.d/xrdp
+covellite:/etc#
+
+3. Check for running xrdp instance:
+
+covellite:~# ps ax | grep [x]rdp
+14543 ?        S      0:00 /usr/sbin/xrdp
+14546 ?        S      0:00 /usr/sbin/xrdp-sesman
+covellite:~#
+
+Looks good
+
+
+
+Links
+=====
+Remote Desktop Protocol
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
+
