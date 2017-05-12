@@ -1,0 +1,12 @@
+grdesktop.txt
+Created Thu Feb 12 16:34:20 AKST 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+grdesktop - GNOME frontend for the rdesktop client
+
+
+grdesktop is a GNOME frontend for the remote desktop client (rdesktop).
+
+It  can  save several connections (including their options), and browse
+the network for available terminal servers.
