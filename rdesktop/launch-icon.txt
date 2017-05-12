@@ -1,0 +1,238 @@
+launch-icon.txt
+Created Fri Mar 21 13:45:11 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Launch icon
+
+
+gnome-tweak-tool - tool to adjust advanced configuration settings for GNOME
+  Don't see launch info in gnome-tweak-tool.
+
+
+Got popup from gnome icon on cairo-dock:
+
+Launch this new application
+<check> <X>
+click <check>
+
+Thu Mar 27 10:13:54 AKDT 2014
+=============================
+o Configure gnome to just run scipts
+1. Open Nautilus.
+
+2. Open this from the menu bar:
+Edit > Preferences
+
+3. Select the 'Behavior' tab.
+click Behavior tab
+
+4. Configure to run executable files
+select "Run executable text files when they are opened"
+
+5. Close the window.
+click Close
+
+Now you can double-click your executable text file in Nautilus to be asked
+whether to execute or edit your script.
+
+
+
+o Configure default application for rdp files.
+
+1. Applications to open various file types are done through Nautilus.  Open a
+Nautilus window and navigate to a file for which you want to change the
+default association.  For example, the default for text files is to use the
+GEdit program, but if you prefer to associate .py (python) and .php (PHP)
+files with the Komodo IDE all the time, you need to change the default.
+
+If you right-click on a .py file, you can use the "Open with Other Application"
+selection if this is a one-time association.  If not, open the Properties
+selection.  In the window that pops up, select the "Open With" tab.  You should
+see any number of applications listed here, with the default being GEdit (a
+filled-in bullet indicates the default application to open the file with).
+
+Click the "Add" button and scroll the list. If the application you want to use
+is listed, select it.  If not, click the triangle beside the "Use a custom
+command" text string and either browse for the application or enter in the
+full path and filename to the application. To associate Komodo IDE to the .py
+file, type in the full path to the application, such as /usr/local/bin/komodo.
+Taken back to the "Open With" dialog, you will see the application listed, so
+select the radio button beside the application, then click the "Close" button.
+
+In my case I had to:
+
+1. Open Computer on gnome desktop:
+double-click home
+double-click Desktop
+
+2. Get properties for rdp file:
+right-click nms-deltacontrol-1.rdp > Properties
+click Open With tab
+click Remotedesktop client for grdesktop under Recommendend Applications
+click Set as default
+click Close
+
+3. Test - On covellite gnome desktop:
+double-click nms-delcontrol-1.rdp
+
+Yeh hah!  It launches correctly in grdesktop.
+
+techrepublic.com/
+
+
+o The following procedure makes grdesktop (gtk rdesktop wrapper) selectable
+via Open With... Other Application in gnome.  It is not selectable by
+default.  However, still no double-click rdp files to run grdesktop.
+
+1. Open gnome's Main Menu:
+Applications > System Tools > Preferences > Main Menu
+
+2. In Main Menu get Properties for grdesktop (named Remotedesktop Client):
+Applications > Internet > Remotedesktop Client > click Properties
+
+3. At Launcher Properties append "%U" to grdesktop command:
+Command: grdesktop
+click Close
+click Close
+
+blog.gauntface.co.uk/
+
+4. Set grdesktop to open rdp files.
+right-click nms-deltacontrol-1.rdp > Open With > Other Application...
+click Show other applications
+
+5. Under Other Applications
+click Remotedesktop Client (nor Remote Desktop Viewer which is vinagre)
+click Select
+
+
+o Removed changes made yesterday:
+covellite:~/.local/share/applications$ rm grdesktop.desktop
+covellite:~/.local/share/applications$ rm defaults.list
+
+Removed "application/x-rdp=grdesktop.desktop;" from:
+  covellite:~/.local/share/applications/mimeapps.list
+
+o Observed that /usr/share/applications/grdesktop.desktop already exists.
+i.e. No need to install under /usr/share/gdm/greeter/applications/
+Very good.
+
+o Observed that /etc/mimetypes:487 has rdp mapping:
+application/x-rdp                           rdp
+
+o Updated System wide mime associations/extensions    <===
+in /etc/gnome/defaults.list:97 with x-rdp mimetype:
+
+application/x-rdp=grdesktop.desktop
+
+Backup /etc/gnome/defaults.list:
+covellite:/etc/gnome# cp defaults.list defaults.list-20140327-ORIG
+
+~/.local/share/applications/grdesktop.desktop
+
+  to 
+
+/usr/share/gdm/greeter/applications/grdesktop.desktop  
+
+
+
+Wed Mar 26 13:22:42 AKDT 2014
+=============================
+Unsucessful work on GCI covellite debian wheezy amd64 workstation
+application/x-rdp mimetype to get nms-deltacontrol-a.rdp grdesktop 
+file on desktop to launch rdesktop connection.  It only launches
+gedit text editor at this point.
+
+o Update gnome-defaults-list
+
+$ cp /etc/gnome/defaults.list ~/.local/share/applications
+
+Add entry for rdp:
+application/x-rdp=grdesktop.desktop
+
+archlinux.org/
+
+o Add application/x-rdp mime entry to 
+~/.local/share/applications/mimeapps.list file:
+
+application/x-rdp=grdesktop.desktop;
+
+archlinux.org/
+
+o Create ~/.local/share/applications/grdesktop.desktop file.
+Copied userapp-Icedove-HVUXBX.desktop to grdesktop.desktop and
+updated:
+
+[Desktop Entry]
+Name=grdesktop
+Encoding=UTF-8
+Version=1.0
+Type=Application
+NoDisplay=true
+Exec=/usr/bin/grdesktop %u
+MimeType=application/x-rdp
+Comment=grdesktop - GNOME frontend for the rdesktop client
+
+o Verify rdp in /etc/mimetypes:
+
+covellite:/etc$ grep rdp mime.types
+...
+application/x-rdp   rdp
+$
+
+andrewtheart.blogspot.com/
+
+Looks good - Alas, still no work.
+
+
+Filelist
+========
+defaults.list
+  ~/.local/share/applications/defaults.list
+  Copied from covellite's /etc/gnome/defaults.list - Wed Mar 26, 2014
+  Added entry for rdp:
+    application/x-rdp=grdesktop.desktop
+
+  /usr/share/gnome/applications/defaults.list -> /etc/gnome/defaults.list
+
+grdesktop.desktop
+  ~/.local/share/applications/grdesktop.desktop
+  Copied userapp-Icedove-HVUXBX.desktop to grdesktop.desktop and
+  updated - Wed Mar 26, 2014
+
+mimeapps.list
+  ~/.local/share/applications/mimeapps.list
+  Added entry for application/x-rdp - Wed Mar 26, 2014
+    application/x-rdp=grdesktop.desktop;
+
+  /usr/share/gdm/greeter/applications/mimeapps.list
+
+
+
+Links
+=====
+Adding Custom Applications to the "Open With" Tab on Debian
+Gaunt Face - Feb 24, 2013 @ 20:21
+http://blog.gauntface.co.uk/2013/02/24/adding-custom-applications-to-the-open-with-tab-on-debian/
+
+Change default applications easily in GNOME
+By Vincent Danen in Linux and Open Source, January 4, 2010, 10:00 PM PST
+http://www.techrepublic.com/blog/linux-and-open-source/change-default-applications-easily-in-gnome/
+
+Default applications
+~/./share/applications/mimeapps.list
+https://wiki.archlinux.org/index.php/Default_applications
+
+Fixing rdp MIME type in Ubuntu Linux
+# echo "application/x-rdp rdp" >> /etc/mime.types
+This simply appends the rdp MIME info to the file.
+http://andrewtheart.blogspot.com/2008/07/fixing-rdp-mime-type-in-ubuntu-linux.html
+
+How to add shortcuts in Debian 7 ?
+http://forums.debian.net/viewtopic.php?f=30&t=83012
+
+MIME
+The system-wide mapping from file suffixes to MIME types
+is set in /etc/mime.types.
+https://wiki.debian.org/MIME
