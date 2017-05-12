@@ -1,0 +1,19 @@
+README
+Created Thu Feb 12 16:28:07 AKST 2015
+Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Filelist
+========
+launch-icon.txt
+  rdesktop launch icon
+
+links.txt
+  rdesktop related links
+
+rdesktop.txt
+  rdesktop - Remote Desktop Protocol client
+  https://wiki.archlinux.org/index.php/rdesktop
+
+usage.txt
+  rdesktop -f output showing usage
