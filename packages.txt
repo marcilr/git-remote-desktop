@@ -8,7 +8,9 @@ Packages for Remote Desktop
 
 Packages
 ========
+grcm      - GNOME application to initiate connections to remote machines
 grdesktop - GNOME frontend for the rdesktop client
 rdesktop - RDP client for Windows NT/2000 Terminal Server and Windows Servers
 remmina - remote desktop client for GNOME desktop environment
 vinagre - a remote desktop viewer for the GNOME Desktop
+xrdp      - Remote Desktop Protocol (RDP) server
