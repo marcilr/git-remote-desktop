@@ -1,0 +1,50 @@
+links.txt
+Created Thu Mar 27 11:06:14 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+rdesktop related links
+
+
+Links
+=====
+4 Linux programs to open a Remote Desktop on Windows
+o rdesktop
+o tsclient
+o remmina
+o pac
+http://linuxaria.com/recensioni/4-linux-programs-to-open-a-remote-desktop-on-windows
+
+Desktop files: putting your application in the desktop menus
+Very good information here...
+https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
+
+gredesktop FAQ
+Pretty darn empty.
+http://www.nongnu.org/grdesktop/faq/
+
+grdesktop
+grdesktop is a GNOME frontend for the remote desktop client (rdesktop).
+It can save several connections (including their options), and browse the
+network for available terminal servers.
+http://freecode.com/projects/grdesktop
+
+grdesktop Is A Gnome Frontend For Remote Desktop Client (rdesktop)
+by Farshad on August 16, 2011
+http://www.addictivetips.com/ubuntu-linux-tips/grdesktop-is-a-gnome-frontend-for-remote-desktop-client-rdesktop/
+
+How to encode the rdesktop password parameter in a shell script?
+http://serverfault.com/questions/197389/how-to-encode-the-rdesktop-password-parameter-in-a-shell-script
+
+How to use rdesktop (Windows remote desktop connection)
+http://ubuntuforums.org/showthread.php?t=824710
+
+Rdesktop
+https://wiki.archlinux.org/index.php/rdesktop
+
+rdesktop(1) - Linux man page
+http://linux.die.net/man/1/rdesktop
+
+Remote Desktop Hacks
+Wednesday, April 19, 2006
+http://odetocode.com/blogs/scott/archive/2006/04/19/remote-desktop-hacks.aspx
