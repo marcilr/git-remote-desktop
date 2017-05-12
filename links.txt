@@ -29,13 +29,43 @@ http://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
 How Install And Use XVNC4Viewer On Linux
 https://databoyz.wordpress.com/2012/05/24/how-install-and-use-xvnc4viewer-on-linux-15/
 
+"How to change the listening port for Remote Desktop". Microsoft.
+January 31, 2007. Retrieved November 2, 2007. Microsoft KB article 306759,
+revision 2.2.
+http://support.microsoft.com/kb/306759
+
+How To Configure Remote Access To Your Ubuntu Desktop
+http://www.howtoforge.com/configure-remote-access-to-your-ubuntu-desktop
+
+How to setup remote desktop in Ubuntu or any other Linux distribution
+http://www.ubuntumanual.org/posts/367/how-to-setup-remote-desktop-in-ubuntu-or-any-other-linux-distribution
+
 Linux Remote Desktop Access with VNC
 Fine details and overview of linux remote desktop.
 http://www.stuartellis.eu/articles/vnc-on-linux/
 
+RDP into your Linux Desktop                          <=======
+Use of xrdp - Remote Desktop Protocol (RDP) server
+# yum install xrdp -y
+# chkconfig --levels 35 xrdp on
+# service xrdp start
+This might be better than VNC.  Possible to port over ssh ???
+http://www.linux.org/threads/rdp-into-your-linux-desktop.8/
+
+Remote Desktop Protocol
+From Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Remote_Desktop_Protocol
+
 Remote desktop software
 From Wikipedia, the free encyclopedia
 http://en.wikipedia.org/wiki/Remote_desktop_software
+
+Remote Desktop Ubuntu
+Ubuntu Linux Guide
+http://www.ubuntulinuxguide.com/ubuntu-1204-lts/remote-desktop-12-04-lts/
+
+Routing RDP over ssh tunnel [closed]
+http://stackoverflow.com/questions/15483073/routing-rdp-over-ssh-tunnel
 
 Virtual Network Computing (VNC)
 From Wikipedia, the free encyclopedia
