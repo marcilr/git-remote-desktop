@@ -4,3 +4,12 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 xrdp - Remote Desktop Protocol (RDP) server
+
+
+Wed May 31 14:57:25 AKDT 2017
+=============================
+Wanted to install xrdp on GCI covellite debian 8.8 jessie amd4 system.
+Found that it was already installed.
+
+
+
