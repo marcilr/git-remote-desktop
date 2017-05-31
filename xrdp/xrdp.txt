@@ -9,7 +9,6 @@ xrdp - Remote Desktop Protocol (RDP) server
 Wed May 31 14:57:25 AKDT 2017
 =============================
 Wanted to install xrdp on GCI covellite debian 8.8 jessie amd4 system.
-Found that it was already installed.
-
-
+Found that it was already installed.  Added new connection to covellite's
+remminna rdp application.  Conneciton worked fine.
 
