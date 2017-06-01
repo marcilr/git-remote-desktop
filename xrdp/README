@@ -8,6 +8,9 @@ Filelist
 00INSTALL/
   Installation of xrdp
 
+links.txt
+  xrdp related links
+
 xrdp.txt
   xrdp - Remote Desktop Protocol (RDP) server
 
