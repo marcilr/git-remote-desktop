@@ -48,6 +48,11 @@ rdesktop 192.168.1.23 -k de -g 1500x1150 -r disk:mydisk=/home/soma
 askubuntu.com/
 
 
+Examples
+========
+This looks great when ssh'd in from malachite:
+  covellite:~$ rdesktop -g 1152x864 localhost &
+
 
 Links
 =====
