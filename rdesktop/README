@@ -15,5 +15,17 @@ rdesktop.txt
   rdesktop - Remote Desktop Protocol client
   https://wiki.archlinux.org/index.php/rdesktop
 
+rdesktop-error.txt
+  Error running rdesktop when ssh connected to malachite from
+  gci covellite workstation.
+
+  Get error message:
+    Oh no!  Something has gone wrong.
+
+    A problem has occurred and the system can't recover.
+    Please log out and try again. 
+
+    click Log Out
+
 usage.txt
   rdesktop -f output showing usage
