@@ -7,15 +7,14 @@ Error running rdesktop when ssh connected to malachite from
 gci covellite workstation.
 
 Get error message:
+  Oh no!  Something has gone wrong.
 
-Oh no!  Something has gone wrong.
-
-A problem has occurred and the system can't recover.
-Please log out and try again.
-
+  A problem has occurred and the system can't recover.
+  Please log out and try again.
+  
+  click Log Out
 
 However, rdesktop works on covellite and rdesktop works
 on malachite when logged in at the console.
 
 Uncertain what the cause of the error is.
-
