@@ -1,0 +1,21 @@
+rdesktop-error.txt
+Created Fri Jun  9 15:37:21 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Error running rdesktop when ssh connected to malachite from
+gci covellite workstation.
+
+Get error message:
+
+Oh no!  Something has gone wrong.
+
+A problem has occurred and the system can't recover.
+Please log out and try again.
+
+
+However, rdesktop works on covellite and rdesktop works
+on malachite when logged in at the console.
+
+Uncertain what the cause of the error is.
+
