@@ -22,6 +22,157 @@ and is available for Linux and BSD as well as for Microsoft Windows.
 wikipedia.org/
 
 
+Connect from gci to home, with rdesktop, over local forward
+===========================================================
+1. From gci workstation connect to home malachite workstation with
+local forward.
+
+Created ~/bin/connect-machite script for this:
+#!/bin/bash
+# connect
+# Created Fri Jun  9 15:51:51 AKDT 2017
+# Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+#
+#
+# Links
+# =====
+# Running rdesktop through a SSH tunnel in one command
+# Got initial port forward script from this page.
+# Initial script has ssh "server" argument that I had to remove.
+# https://superuser.com/questions/509825/running-rdesktop-through-a-ssh-tunnel-in-one-command
+#
+
+#ssh -p 60144 -L 3392:216.67.45.36:3389 -N 10.103.193.72 &
+ssh -vvv -N -L 5900:localhost:3389 216.67.45.36 -p 60144 \
+-i /home/marcilr/.ssh/rsa16384_sshfs_nopass
+SSH_PID=$!
+sleep 5 # wait for the connection to establish
+rdesktop 127.0.0.1:3392
+kill $SSH_PID
+
+2. Install xRDP and XFCE packages as needed (Debian jessie 8.8 amd64):
+xrdp - Remote Desktop Protocol (RDP) server
+xfce4 - Meta-package for the Xfce Lightweight Desktop Environment
+
+Optional but recommended:
+  # Install XFCE4 terminal (way better than xterm)
+  xfce4-terminal - Xfce terminal emulator
+  
+  # Install icon sets
+  gnome-icon-theme - GNOME Desktop icon theme
+  tango-icon-theme - Tango icon theme
+
+# aptitude update
+# aptitude install xrdp
+# aptitude install xfce
+# aptitude install xfce-terminal
+# aptitude install gnome-icon-theme   (already installed
+                                       on malachite - 06/09/2017)
+# aptitude install tango-icon-theme   (already installed 
+                                       on malachite - 06/09/2017)
+
+3. Configure xRDP.
+Create or edit ~/.xsession:
+
+$ echo xfce4-session >~/.xsession
+
+  That said, my original appeared to generate much faster
+  sponse in rdesktop:
+
+$ exec "ck-launch-session startxfce4" >~/.xsession
+
+
+4. Update the /etc/xrdp/startwm.sh.
+The content should look like this (pay attention to the last line):
+
+#!/bin/sh
+
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
+
+startxfce4
+
+NOTE: The prior /etc/xrdp/startwm.sh follows. 
+      Moved to malachite:/etc/xrdp/startwm.sh-PRIOR-20170609
+#!/bin/sh
+
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
+
+. /etc/X11/Xsession
+
+5. Restart xrdp:
+malachite:~# /etc/init.d/xrdp restart
+[ ok ] Restarting xrdp (via systemctl): xrdp.service.
+malachite:~#
+
+6. Test rdesktop connection from gci covellite workstation
+(Debian jessie 8.8 amd64) to home malachite workstation 
+(Debian jessie 8.8 amd64) over local forward connection:
+
+i. Start local-forward connection from gci workstation to
+malachite using ~/bin/connect-malachite script:
+
+  $ connect-malachite &
+  OpenSSH_6.7p1 Debian-5+deb8u3, OpenSSL 1.0.1t  3 May 2016
+  debug1: Reading configuration data /home/marcilr/.ssh/config
+  debug1: Reading configuration data /etc/ssh/ssh_config
+  ...
+  debug1: Entering interactive session.
+  $
+
+  $ ps ax | grep [c]onnect-malachite
+  19720 pts/1    S      0:00 /bin/bash /home/marcilr/bin/connect-malachite
+  $ 
+
+  Looks good!
+
+ii. Connect to malachite from covellite with ssh connection:
+covellite:~$ ssh malachite
+Last login: Fri Jun  9 17:54:48 2017 from 209.165.134.1
+malachite:~$
+
+iii. Start rdestop connection malachite via ssh connection:
+
+Need to figure this out again :(
+
+On malchite this works to launch xrdp:
+  malachite:~$ rdesktop -g 1152x864 localhost:3389
+
+However, login fails with:
+  Connection Log
+  connecting to sesman ip 127.0.0.1 port 3350
+  sesman connect ok
+  sending login info to session manager, please wait...
+  xrdp_mm_process_login_response: login failed
+  click OK
+
+On malachite port 3392 does not work (the default rdp port is 3389):
+  malachite:~$ rdesktop -g 1152x864 localhost:3392
+  Autoselected keyboard map en-us
+  ERROR: localhost: unable to connect
+  malachite:~$ 
+
+On covellite rdesktop to port 3389 does not work:
+  covellite:~$ rdesktop -g 1152x864 localhost:3389
+  Autoselected keyboard map en-us
+  ERROR: localhost: unable to connect
+  covellite:~$ 
+
+On covellite rdesktop to port 3392 does not work:
+  covellite:~$ rdesktop -g 1152x864 localhost:3392
+  Autoselected keyboard map en-us
+  ERROR: localhost: unable to connect
+  covellite:~$ 
+
+
+
+
+
 Syntax
 ======
 rdesktop [options] server[:port]
