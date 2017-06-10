@@ -76,8 +76,7 @@ Create or edit ~/.xsession:
 
 $ echo xfce4-session >~/.xsession
 
-  That said, my original appeared to generate much faster
-  sponse in rdesktop:
+  NOTE: Uncertain this is better than my original:
 
 $ exec "ck-launch-session startxfce4" >~/.xsession
 
@@ -136,38 +135,33 @@ covellite:~$ ssh malachite
 Last login: Fri Jun  9 17:54:48 2017 from 209.165.134.1
 malachite:~$
 
-iii. Start rdestop connection malachite via ssh connection:
+iii. Start rdestop connection on malachite via ssh connection:
 
-Need to figure this out again :(
+  ssh to malchite from covellite:
+  covellite:~$ ssh malachite
+  Last login: Fri Jun  9 18:55:20 2017 from 209.165.134.1
+  @malachite:~$ 
 
-On malchite this works to launch xrdp:
-  malachite:~$ rdesktop -g 1152x864 localhost:3389
+On malachite run rdesktop for rdp display:
+  malachite:~$ rdesktop localhost:3389             <=== Login always works
+    or
+  malachite:~$ rdesktop -g 1152x864 localhost:3389 <=== Login fails
+    of
+  malachite:~$ rdesktop -g 1024x768 localhost:3389 <=== Login fails
 
-However, login fails with:
-  Connection Log
-  connecting to sesman ip 127.0.0.1 port 3350
-  sesman connect ok
-  sending login info to session manager, please wait...
-  xrdp_mm_process_login_response: login failed
-  click OK
+Cannot get sizes other then the default to work.
+Swear this was working previously.
 
-On malachite port 3392 does not work (the default rdp port is 3389):
-  malachite:~$ rdesktop -g 1152x864 localhost:3392
-  Autoselected keyboard map en-us
-  ERROR: localhost: unable to connect
-  malachite:~$ 
+  Originally Posted by bathory >>
+  You can use the -g option in one of the following two ways: 
+  1. specifying the rdesktop window dimensions you want, like WxH
+  2. use a percentage of the actual window, e.g. 90%
+  rdesktop window size
+  http://www.linuxquestions.org/questions/linux-newbie-8/rdesktop-window-size-584077/
 
-On covellite rdesktop to port 3389 does not work:
-  covellite:~$ rdesktop -g 1152x864 localhost:3389
-  Autoselected keyboard map en-us
-  ERROR: localhost: unable to connect
-  covellite:~$ 
 
-On covellite rdesktop to port 3392 does not work:
-  covellite:~$ rdesktop -g 1152x864 localhost:3392
-  Autoselected keyboard map en-us
-  ERROR: localhost: unable to connect
-  covellite:~$ 
+Connection speed to really bad.  Need to determine method to
+go through the gci cable modem.
 
 
 xrandr -q
