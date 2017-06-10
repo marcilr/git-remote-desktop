@@ -17,4 +17,54 @@ Get error message:
 However, rdesktop works on covellite and rdesktop works
 on malachite when logged in at the console.
 
-Uncertain what the cause of the error is.
+
+Made some google xrdp tweaks to fix this:
+
+1. Updated ~/.xsession:
+
+exec ck-launch-session startxfce4
+  to
+xfce4-session
+
+NOTE: Save old to ~/.xsession-PRIOR-20170609
+
+2. Updated /etc/xrdp/startwm.sh
+
+Very long...
+
+  to
+
+#!/bin/sh
+
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
+
+startxfce4
+
+NOTE: Save old to startwm.sh-PRIOR-20170609
+
+--tweaking4all.com/
+
+3. Restart xrdp:
+# /etc/init.d/xrdp restart
+
+
+Now really need to switch connection from gci to home to the
+gci cable modem route as acs is really, really painfully slow.
+
+Switching the home to gci to the cable modem did the trick so
+I figure the alternative the same going home would do the trick.
+
+
+
+Links
+=====
+The screen is grey blank when connecting ubuntu through
+Windows's remote desktop
+"Just xrdp gives your RDC just what is it there, bare X server.
+To see "desktop", menus, icons etc you need to have some windows
+manager / desktop environment installed and started.  Please
+elaborate which of them did you install."
+https://askubuntu.com/questions/563780/the-screen-is-grey-blank-when-connecting-ubuntu-through-windowss-remote-desktop
