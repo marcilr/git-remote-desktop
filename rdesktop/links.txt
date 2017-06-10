@@ -48,3 +48,11 @@ http://linux.die.net/man/1/rdesktop
 Remote Desktop Hacks
 Wednesday, April 19, 2006
 http://odetocode.com/blogs/scott/archive/2006/04/19/remote-desktop-hacks.aspx
+
+The screen is grey blank when connecting ubuntu through Windows's   <===
+remote desktop
+"To see "desktop", menus, icons etc you need to have some    
+windows manager / desktop environment installed and started.
+Please elaborate which of them did you install."
+https://askubuntu.com/questions/563780/the-screen-is-grey-blank-when-connecting-ubuntu-through-windowss-remote-desktop
+
