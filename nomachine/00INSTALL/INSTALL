@@ -35,3 +35,9 @@ NX> 700 Install completed at: Wed Dec 13 11:54:40 2017.
 NX> 700 NoMachine was configured to run the following services:
 NX> 700 NX service on port: 4000
 covellite:~# 
+
+covellite:~# dpkg -l | grep nomachine
+ii  nomachine   6.0.66-2   amd64   Fast and secure remote access system
+covellite:~#
+
+Looks good!
