@@ -7,6 +7,7 @@ Filelist
 ========
 nomachine_6.0.66_2_amd64.deb   
   NoMachine for Linux DEB amd64
+  Installed on GCI covellite debian stretch AMD64 9.3 on Wed Dec 13, 2017
   Version:         6.0.66_2
   Package size:    42.06 MB
   Package type:    DEB
@@ -23,6 +24,16 @@ nomachine_6.0.66_2_amd64.deb
                    16.04 Xenial Xerus/16.10 Yakkety Yak/17.04 ZestyZapus
   http://download.nomachine.com/download/6.0/Linux/nomachine_6.0.66_2_amd64.deb
 
+nomachine_6.0.66_2.dmg 
+  NoMachine for MacOS Sierra, installed on GCI MacBook Pro running
+  maxOS Sierra 10.12.6 on Wed December 13, 2017
+  Version:       6.0.66_2
+  Package size:  39.63 MB
+  Package type:  DMG
+  MD5 signature: ed8822b366c1e4afc8c36c78d3ec6dd1
+  For:           Mac Intel 64-bit OS X 10.7/10.8/10.9/10.10/10.11, macOS 10.12/10.13
+  http://download.nomachine.com/download/6.0/MacOSX/nomachine_6.0.66_2.dmg
+  
 
 Links
 =====
