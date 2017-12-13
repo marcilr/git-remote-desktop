@@ -1,0 +1,37 @@
+INSTALL
+Created Wed Dec 13 11:55:24 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of nomachine on GCI covellite debian stretch 9.3 
+amd64 workstation
+
+
+covellite:~# pkg -i nomachine_6.0.66_2_amd64.deb 
+Selecting previously unselected package nomachine.
+(Reading database ... 351581 files and directories currently installed.)
+Preparing to unpack nomachine_6.0.66_2_amd64.deb ...
+Unpacking nomachine (6.0.66-2) ...
+Setting up nomachine (6.0.66-2) ...
+NX> 700 Starting install at: Wed Dec 13 11:54:12 2017.
+NX> 700 Installing: nxclient version: 6.0.66.
+NX> 700 Using installation profile: Debian.
+NX> 700 Install log is: /usr/NX/var/log/nxinstall.log.
+NX> 700 Compiling the USB module.
+NX> 700 Installing: nxplayer version: 6.0.66.
+NX> 700 Using installation profile: Debian.
+NX> 700 Install log is: /usr/NX/var/log/nxinstall.log.
+NX> 700 To connect the remote printer to the local desktop,
+NX> 700 the user account must be a member of the CUPS System Group: lpadmin.
+NX> 700 Installing: nxnode version: 6.0.66.
+NX> 700 Using installation profile: Debian.
+NX> 700 Install log is: /usr/NX/var/log/nxinstall.log.
+NX> 700 Creating configuration in: /usr/NX/etc/node.cfg.
+NX> 700 Installing: nxserver version: 6.0.66.
+NX> 700 Using installation profile: Debian.
+NX> 700 Install log is: /usr/NX/var/log/nxinstall.log.
+NX> 700 Creating configuration in: /usr/NX/etc/server.cfg.
+NX> 700 Install completed at: Wed Dec 13 11:54:40 2017.
+NX> 700 NoMachine was configured to run the following services:
+NX> 700 NX service on port: 4000
+covellite:~# 
