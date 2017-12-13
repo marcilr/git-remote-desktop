@@ -53,6 +53,11 @@ http://www.nomachine.com/download.php
 NoMachine installation docs
 http://www.nomachine.com/installation.php
 
+NoMachinme for MacOS Sierra 10.12.6
+  Installed nomachine v6.0.66 on GCI MacBook Pro Wed Dec 13, 2017
+  nomachine_6.0.662.dmg
+  http://download.nomachine.com/download/6.0/MacOSX/nomachine_6.0.662.dmg
+
 NoMachine NX is a fast terminal server and desktop virtualization system based
 on the X11 protocol.  NX is an order of magnitude faster than VNC or X11 and 
 can run on bandwidth as narrow as 10 kBit/sec.  In addition, NX translates and
