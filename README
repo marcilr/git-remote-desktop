@@ -19,7 +19,7 @@ wikipedia.org/
 
 
 From my experience there are three means of remove desktop.  These are rdp,
-vnc, and rdp.  The first rdp is generally associated windows and port 3389.
+vnc, and vpn.  The first rdp is generally associated windows and port 3389.
 That said I remember using rdesktop to get to linux boxes working at Spectrum
 Wireless with Jame Crippen in 2000.
 
